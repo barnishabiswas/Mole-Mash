@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+           content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>MoleMash</title>
+</head>
+
+<body>
+    <div class="intro">
+        <i class="ri-gamepad-line"></i>
+        <b>MoleMash!</b>
+        <div class="intro-msg">
+        Whack the Moles before the time runs out!
+        </div>
+    </div>
+
+    <div><button id="startButton">🐹Start Game</button>
+    <button id="endButton" disabled>End Game🔨</button></div>
+    <div class="game-container">
+        <div class="hole" id="hole1"></div>
+        <div class="hole" id="hole2"></div>
+        <div class="hole" id="hole3"></div>
+        <div class="hole" id="hole4"></div>
+        <div class="hole" id="hole5"></div>
+        <div class="hole" id="hole6"></div>
+        <div class="hole" id="hole7"></div>
+        <div class="hole" id="hole8"></div>
+        <div class="hole" id="hole9"></div>
+    </div>
+    <div class="game-info">
+        <div id="score">🏆Score: 0</div>
+        <div id="timer">⏰Time: 60s</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
